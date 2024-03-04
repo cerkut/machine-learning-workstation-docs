@@ -1,21 +1,20 @@
 # Table of contents
 
 * [Main page](README.md)
-* [Get a user](get-a-user.md)
 
 ## Connection
 
+* [Connection through VPN](connection/connection-through-vpn.md)
 * [Connect to the machine](connection/connect-to-the-machine.md)
 * [Add SSH Keys](connection/add-ssh-keys.md)
-* [Connection through VPN](connection/connection-through-vpn.md)
 * [Port forwarding](connection/port-forwarding.md)
-* [X forwarding \(running software with GUI\)](connection/x-forwarding-running-software-with-gui.md)
+* [X forwarding (running software with GUI)](connection/x-forwarding-running-software-with-gui.md)
 
 ## Usage
 
 * [Python/Conda](usage/python-conda.md)
 * [Common packages](usage/common-packages.md)
-* [Tmux \(persistent sessions\)](usage/tmux-persistent-sessions.md)
+* [Tmux (persistent sessions)](usage/tmux-persistent-sessions.md)
 * [Sharing code base](usage/sharing-code-base.md)
 * [GPU usage](usage/gpu-usage.md)
 * [Run Jupyter remotely](usage/run-jupyter-remotely.md)
@@ -44,4 +43,3 @@
 * [Managing users](administration/managing-users.md)
 * [System maintenance](administration/system-maintenance.md)
 * [Other tasks](administration/other-tasks.md)
-

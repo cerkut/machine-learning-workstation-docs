@@ -1,6 +1,10 @@
+---
+description: If VPN does not work.
+---
+
 # Connect to the machine
 
-The workstation can be accessed remotely through SSH. In order to do so, you have to first connect to an AAU Gateway machine, and then connect to the workstation. The following steps will help you set up an automatic shortcut.
+The workstation can be also accessed remotely through SSH. In order to do so, you have to first connect to an AAU Gateway machine, and then connect to the workstation. The following steps will help you set up an automatic shortcut.
 
 ## Setup connection configuration
 
@@ -10,9 +14,9 @@ Navigate in the `.ssh` directory in your local machine:
 cd ~/.ssh
 ```
 
-Inside the directoty, edit or create a file called `config`, and add the following content:
+Inside the directory, edit or create a file called `config`, and add the following content:
 
-```text
+```
 Host aau_gateway
    HostName sshgw.aau.dk
    User <AAU FULL EMAIL>
@@ -28,7 +32,7 @@ Host ml_workstation
    ServerAliveCountMax 2
 ```
 
-Be sure to replace the fields `<AAU FULL EMAIL>` and `<AAU EMAIL USERNAME>` with their respective informations.
+Be sure to replace the fields `<AAU FULL EMAIL>` and `<AAU EMAIL USERNAME>` with their respective information.
 
 ## Connect
 
@@ -40,5 +44,4 @@ ssh ml_workstation
 
 After running the command, you will be prompted to type in your AAU password. Afterwards, you will have to confirm your login attempt using the Microsoft Authenticator app, by clicking "Approve" on the app notification. You can set it up by following [these instructions](https://www.en.its.aau.dk/instructions/Username+and+password/Azure+MFA/). Once you authorize using the app, another password prompt will appear, asking you for the password received by email when setting up your account. If no default password was sent to you, this prompt will allow you to create one.
 
-The next section will help you set up SSH keys to avoid typing this last password all the time. If you also want to avoid using the 2-factor authentication through the Microsoft Authenticator app, check the section about [VPN connection](connection-through-vpn.md). Refer to [persistent sessions](../usage/tmux-persistent-sessions.md) for multiple persisten terminals on a single session.
-
+The next section will help you set up SSH keys to avoid typing this last password all the time. If you also want to avoid using the 2-factor authentication through the Microsoft Authenticator app, check the section about [VPN connection](connection-through-vpn.md). Refer to [persistent sessions](../usage/tmux-persistent-sessions.md) for multiple persistent terminals on a single session.
