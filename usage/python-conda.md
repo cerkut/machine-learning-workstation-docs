@@ -24,6 +24,8 @@ conda activate <ENV_NAME>
 
 You will know that the environment is active because its name will appear between parentheses at the beginning of the command prompt. Once an environment is active, you can access all the python packages installed within. You can also use the command above to switch between existing environments.
 
+By default, Conda environments are stored in the user’s home directory (`$HOME/.conda/envs/`).
+
 In order to install the custom package `<PACKAGE_NAME>` within the environment, make sure the environment is active then type:
 
 ```bash

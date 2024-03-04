@@ -6,7 +6,7 @@ The preferred way of getting managed GPU access at AAU is through [CLAAUDIA](htt
 
 Then **on the campus** you can access to the jupyter server  by opening a browser with the following address: [http://172.30.207.25](http://172.30.207.25/)&#x20;
 
-The first time you'll connect, your user name is your {AAU\_EMAIL\_USERNAME} and you'll have to give a password of your choice (and remember it for future logins). A successful login should bring you to a conda and CUDA enabled jupyter lab instance,  but can install your preferred custom packages with the user flag:
+The first time you'll connect, your user name is your {AAU\_EMAIL\_USERNAME} and you'll have to give a password of your choice (and remember it for future logins). A successful login should bring you to a conda and CUDA enabled jupyter lab instance,  but you can install your preferred custom packages to your homespace with the `--user` flag:
 
 `pip install --user scikit-learn`
 
