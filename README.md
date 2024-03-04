@@ -6,12 +6,11 @@ The preferred way of getting managed GPU access at AAU is through [CLAAUDIA](htt
 
 Then **on the campus** you can access to the jupyter server with 
 
-`ssh -NfL localhost:4098:localhost:80 {AAU EMAIL USERNAME}@172.30.207.25`
+`ssh -NfL localhost:4098:localhost:80 cer@172.30.207.25`
 
-and opening a browser with the following address: http://localhost:4098/user/{AAU EMAIL USERNAME}/lab 
+and opening a browser with the following address: http://localhost:4098/user/cer/lab 
 
-
-The first time you'll connect, you'll have to give a password of your choice. If you want to access to the server outside of the campus, you will have to setup a [VPN](https://aalborg-university.gitbook.io/machine-learning-workstation/connection/connection-through-vpn) or [ssh with AAU two factor authorization](https://aalborg-university.gitbook.io/machine-learning-workstation/connection/connect-to-the-machine).
+Remember to use your {AAU_EMAIL_USERNAME} instead of `cer` above. The first time you'll connect, you'll have to give a password of your choice. If you want to access to the server outside of the campus, you will have to setup a [VPN](https://aalborg-university.gitbook.io/machine-learning-workstation/connection/connection-through-vpn) or [ssh with AAU two factor authorization](https://aalborg-university.gitbook.io/machine-learning-workstation/connection/connect-to-the-machine).
 
 The following sections will guide you through connecting to the machine, using the GPUs, and exchange data. Moreover, a list of useful links is provided, including [CLAAUDIA](https://www.researcher.aau.dk/contact/claaudia) GPU acccess. You will find a cuda-enabled conda installation at the hub, but can install your preferred custom packages with 
 
