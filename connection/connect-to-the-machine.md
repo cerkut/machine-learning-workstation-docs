@@ -20,7 +20,7 @@ Host aau_gateway
    ServerAliveCountMax 2
 
 Host ml_workstation
-   HostName 172.30.215.224
+   HostName 172.30.207.25
    User <AAU EMAIL USERNAME>
    IdentityFile ~/.ssh/id_rsa
    ProxyCommand ssh aau_gateway nc %h %p
