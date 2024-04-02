@@ -5,10 +5,6 @@
 ## Connection
 
 * [Connection through VPN](connection/connection-through-vpn.md)
-* [Connect to the machine](connection/connect-to-the-machine.md)
-* [Add SSH Keys](connection/add-ssh-keys.md)
-* [Port forwarding](connection/port-forwarding.md)
-* [X forwarding (running software with GUI)](connection/x-forwarding-running-software-with-gui.md)
 
 ## Usage
 
@@ -39,7 +35,12 @@
 
 ## Administration
 
-* [Introduction](administration/introduction.md)
+* [Introduction](administration/introduction/README.md)
+  * [TLJH mamba/pip installations for ALL users](https://tljh.jupyter.org/en/latest/install/custom-server.html#step-3-install-conda-pip-packages-for-all-users)
+* [Connect to the machine via SSH](administration/connect-to-the-machine/README.md)
+  * [Add SSH Keys](administration/connect-to-the-machine/add-ssh-keys.md)
+  * [Port forwarding](administration/connect-to-the-machine/port-forwarding.md)
+  * [X forwarding (running software with GUI)](administration/connect-to-the-machine/x-forwarding-running-software-with-gui.md)
 * [Managing users](administration/managing-users.md)
 * [System maintenance](administration/system-maintenance.md)
 * [Other tasks](administration/other-tasks.md)

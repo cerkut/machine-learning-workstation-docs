@@ -1,8 +1,8 @@
 ---
-description: If VPN does not work.
+description: Only if VPN does not work, included for historical reasons.
 ---
 
-# Connect to the machine
+# Connect to the machine via SSH
 
 The workstation can be also accessed remotely through SSH. In order to do so, you have to first connect to an AAU Gateway machine, and then connect to the workstation. The following steps will help you set up an automatic shortcut.
 
@@ -54,4 +54,4 @@ After running the command, you will be prompted to type in your AAU password. Af
 
 Once you authorize using the app, another password prompt will appear, asking you for the password received by email when setting up your account. If no default password was sent to you, this prompt will allow you to create one.
 
-The next section will help you set up SSH keys to avoid typing this last password all the time. Refer to [persistent sessions](../usage/tmux-persistent-sessions.md) for multiple persistent terminals on a single session.
+The next section will help you set up SSH keys to avoid typing this last password all the time. Refer to [persistent sessions](../../usage/tmux-persistent-sessions.md) for multiple persistent terminals on a single session.

@@ -1,8 +1,23 @@
+---
+description: User-space python installation.
+---
+
 # Python/Conda
 
-A lot of libraries for machine learning (keras, pytorch, tensorflow, sk-learn), numerical computing (numpy, scipy), and data visualization (matplotlib, pandas, seaborn) are available in the form of python packages.
+A lot of libraries for machine learning (scikit-learn), numerical computing (numpy, scipy), and data visualization (matplotlib, pandas, seaborn) are available in the form of python packages.&#x20;
 
-While its builtin package manager `pip` let's you easily install new packages, it doesn't fully account for their dependencies which may result in malfunctionings or unreplicable results. Therefore, we use `conda;`a package and environment manager to create and maintain multiple development environments at the same time. We created a base environment for all users of the ml\_workstation.&#x20;
+We keep the default 'base' environment slim, created system-wide conda environments and installed the following frameworks, shown below with (env\_name):: packages format
+
+* torch :: latest stable GPU-enabled torch, torchaudio, torchvision, and torchtext&#x20;
+* tf-keras-jax :: latest stable GPU-enabled tensorflow 2, keras, and jax
+
+You can activate these global environments with&#x20;
+
+```sh
+// conda activate torch # or tf-keras-jax
+```
+
+While `pip` let's you easily install new packages, it doesn't fully account for their dependencies which may result in malfunctionings or unreplicable results. Therefore, we use `conda;`a package and environment manager to create and maintain multiple development environments at the same time.&#x20;
 
 Some packages may not exist in conda; as a last resort, you can then use pip from within the conda environment:
 
@@ -10,7 +25,7 @@ Some packages may not exist in conda; as a last resort, you can then use pip fro
 pip install --user <PACKAGE_NAME>
 ```
 
-If absolutely needed, you can create a new environment called `<ENV_NAME>` at your user space, by&#x20;
+If absolutely needed, you can create a new environment called `<ENV_NAME>`at your user space, by&#x20;
 
 ```bash
 conda create --name <ENV_NAME>

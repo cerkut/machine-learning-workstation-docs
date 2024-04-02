@@ -1,6 +1,6 @@
 # To or from the Internet
 
-This section illustrates some of the most common ways of retrieving data \(e.g. datasets\) from websites or repositories.
+This section illustrates some of the most common ways of retrieving data (e.g. datasets) from websites or repositories.
 
 ## Wget
 
@@ -12,7 +12,7 @@ wget -O <FILENAME> <URL>
 
 ## Rclone
 
-Rclone is a file manager and synchronization tool for a variety of cloud storage and file sharing platforms \(e.g. Dropbox, Google Drive, Microsoft OneDrive, Amazon S3\). You can start by adding a platform with typing:
+Rclone is a file manager and synchronization tool for a variety of cloud storage and file sharing platforms (e.g. Dropbox, Google Drive, Microsoft OneDrive, Amazon S3). You can start by adding a platform with typing:
 
 ```bash
 rclone config
@@ -20,7 +20,6 @@ rclone config
 
 The interactive instruction will guide you through the setup process. Refer to their [documentation](https://rclone.org/) for specific guidance with a given platform.
 
-## Remote browser \(X forwarding\)
+## Remote browser (X forwarding)
 
-In some cases the only way of downloading content is from a browser. In these instances it may be possible to use [X forwarding](../connection/x-forwarding-running-software-with-gui.md) to open a browser running remotely, on your local screen.
-
+In some cases the only way of downloading content is from a browser. In these instances it may be possible to use [X forwarding](../administration/connect-to-the-machine/x-forwarding-running-software-with-gui.md) to open a browser running remotely, on your local screen.
