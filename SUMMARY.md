@@ -9,6 +9,7 @@
 ## Usage
 
 * [Python/Conda](usage/python-conda.md)
+* [Edge Impulse](usage/edge-impulse.md)
 * [Common packages](usage/common-packages.md)
 * [Tmux (persistent sessions)](usage/tmux-persistent-sessions.md)
 * [Sharing code base](usage/sharing-code-base.md)
